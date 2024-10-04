@@ -1,21 +1,5 @@
 
 import os
-
-# Set environment variables
-os.environ['INPUT_CHOICE'] = 'Speech'
-os.environ['CHATBOT_SERVICE'] = 'oogabooga'
-os.environ['TTS_CHOICE'] = 'LOCAL_TTS' #
-os.environ['VOICE_ID'] = 'pNInz6obpgDQGcFmaJgB' #
-os.environ['CUDA_STATUS'] = 'True' #
-os.environ['ELEVENLAB_KEY'] = 'sk_1ac3e847f87703dc6276f75566a98c1bc22cba602890bad9' #
-os.environ['VOICE_MODEL'] = 'Elli' #
-os.environ['WHISPER_MODEL'] = 'base' #
-os.environ['WHISPER_CHOICE'] = 'TRANSCRIBE' #
-os.environ['KMP_DUPLICATE_LIB_OK'] = 'True'
-os.environ['VTUBE_STUDIO_API_PORT'] = 8001 #
-os.environ['GOOGLE_API_KEY'] = 'AIzaSyCEzc2NtaIa3eBMh5QNp1wDaeSCH0OrN-g'
-os.environ['GOOGLE_API_KEY'] = 'AIzaSyCEzc2NtaIa3eBMh5QNp1wDaeSCH0OrN-g'
-
 from utils.LLM.Embedding import *
 from utils.LLM.Gemini import *
 from utils.LLM.GroqApi import *
