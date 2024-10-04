@@ -1,21 +1,6 @@
 
 import os
 
-# Set environment variables
-os.environ['INPUT_CHOICE'] = 'Speech'
-os.environ['CHATBOT_SERVICE'] = 'oogabooga'
-os.environ['TTS_CHOICE'] = 'LOCAL_TTS' #
-os.environ['VOICE_ID'] = 'pNInz6obpgDQGcFmaJgB' #
-os.environ['CUDA_STATUS'] = 'True' #
-os.environ['ELEVENLAB_KEY'] = 'sk_73c2d983c6ac7e9a1bbf6711bebd5e9d7a99cdde59904cf3' #
-os.environ['VOICE_MODEL'] = 'Elli' #
-os.environ['WHISPER_MODEL'] = 'base' #
-os.environ['WHISPER_CHOICE'] = 'TRANSCRIBE' #
-os.environ['KMP_DUPLICATE_LIB_OK'] = 'True'
-os.environ['VTUBE_STUDIO_API_PORT'] = "8001" #
-os.environ['GOOGLE_API_KEY'] = 'AIzaSyCEzc2NtaIa3eBMh5QNp1wDaeSCH0OrN-g'
-# os.environ['OPENAI_API_KEY'] = "sk-************************************"
-
 from utils.Model.GPT import *
 from utils.Model.Gemini import *
 from utils.processing import *
